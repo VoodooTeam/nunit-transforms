@@ -45,7 +45,6 @@
     <!-- Times -->
     <xsl:value-of select="concat(' Start time: ', @start-time, $newline)"/>
     <xsl:value-of select="concat('   End time: ', @end-time, $newline)"/>
-    <xsl:value-of select="concat('   Duration: ', format-number(@duration,'0.000'), ' seconds', $break)"/>
 
   </xsl:template>
 
